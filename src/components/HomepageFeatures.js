@@ -4,12 +4,12 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Mudah Dipelajari',
+    title: 'Mudah Diterapkan',
     Svg: require('../../static/img/undraw_programmer_re_owql.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Pandora disusun secara langkah demi langkah, sehingga mudah diterapkan
+        dalam proyek Anda.
       </>
     ),
   },
@@ -18,8 +18,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_maker_launch_crhe.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Menggunakan qore dan qore SDK yang dapat mempercepat proses development.
       </>
     ),
   },
@@ -28,8 +27,8 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_book_lover_re_rwjy.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Belajar menerapkan best practice, sehingga kemunculan bug dapat
+        diminimalisir
       </>
     ),
   },

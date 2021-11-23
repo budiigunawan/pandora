@@ -5,12 +5,16 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
+import Animation from '../../static/img/launching.svg';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className='container'>
+        <div className={styles.lauchingSvg}>
+          <Animation />
+        </div>
         <h1 className='hero__title'>{siteConfig.title}</h1>
         <p className='hero__subtitle'>{siteConfig.tagline}</p>
         <div className={styles.buttons}>
@@ -18,7 +22,7 @@ function HomepageHeader() {
             className='button button--secondary button--lg'
             to='/docs/intro'
           >
-            Launch Pandora 🚀
+            Mulai 🚀
           </Link>
         </div>
       </div>

@@ -4,31 +4,32 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Mudah Diterapkan',
+    title: 'Easy to Use',
     Svg: require('../../static/img/undraw_programmer_re_owql.svg').default,
     description: (
       <>
-        Pandora disusun secara langkah demi langkah, sehingga mudah diterapkan
-        dalam proyek Anda.
+        Pandora was designed from the ground up to be easily learned and used in
+        your project
       </>
     ),
   },
   {
-    title: 'Percepat Development',
+    title: 'Accelerate Development',
     Svg: require('../../static/img/undraw_maker_launch_crhe.svg').default,
     description: (
       <>
-        Menggunakan qore dan qore SDK yang dapat mempercepat proses development.
+        Pandora use Qore to accelerate the development process especially on the
+        backend, so you can focus on the flow and UI/UX of the project.
       </>
     ),
   },
   {
-    title: 'Best Practices',
+    title: 'Best Practices Approach',
     Svg: require('../../static/img/undraw_book_lover_re_rwjy.svg').default,
     description: (
       <>
-        Belajar menerapkan best practice, sehingga kemunculan bug dapat
-        diminimalisir
+        Learn to apply best practices to our project, so we can prevent bugs
+        that will appear in the future
       </>
     ),
   },

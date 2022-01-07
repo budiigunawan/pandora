@@ -4,8 +4,6 @@ sidebar_position: 1
 
 # Qore Introduction
 
-Let's discover **Qore**.
-
 ## What is Qore?
 
 ![BaaS Concept](/img/documentation/qore/qore-logo.svg)

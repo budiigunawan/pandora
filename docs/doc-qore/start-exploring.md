@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Start Exploring
 
-Qore is a **low code platform** and you can build system/application for a specific purpose.
+Lets start exploring **Qore**!
 
 ## Create an account
 

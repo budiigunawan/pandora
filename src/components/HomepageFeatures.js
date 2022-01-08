@@ -19,7 +19,8 @@ const FeatureList = [
     description: (
       <>
         Pandora use Qore to accelerate the development process especially on the
-        backend, so you can focus on the flow and UI/UX of the project.
+        backend, so you can focus on implementing UI/UX design into your
+        project.
       </>
     ),
   },

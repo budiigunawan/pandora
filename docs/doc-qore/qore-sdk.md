@@ -478,6 +478,10 @@ Remove a data of allTasks view with an id of some-task-id.
 
 ## Authenticating Your User
 
+Activate **authentication settings** on Qore Dasboard:
+
+![Auth Settings](/img/documentation/qore/qore-auth-settings.png)
+
 ```jsx title="src/pages/my-react-page.js"
 
 // qoreContext.js
@@ -517,3 +521,5 @@ const Component = () => {
 ```
 
 If the token is valid, an object that describes the current user will be returned from this call.
+
+✨ Source: **[Qore SDK Docs](https://sdk-docs.qorebase.io/#features)**

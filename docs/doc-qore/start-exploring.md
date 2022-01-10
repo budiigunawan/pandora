@@ -25,3 +25,11 @@ Lets start exploring **Qore**!
 2. Double click on **project that have been made before**, the picture below shows project dashboard page.
 
 ![Project Dashboard](/img/documentation/qore/qore-dashboard.png)
+
+## Collaboration
+
+Another team member can have exactly same project with you using collaboration feature.
+Add new collaborator:
+![Project Dashboard](/img/documentation/qore/qore-add-collaborator.png)
+
+**Email must be registered on Qore System**

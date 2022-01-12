@@ -4,40 +4,23 @@ sidebar_position: 1
 
 # React Introduction
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+## What is React?
 
-- `src/pages/index.js` -> `localhost:3000/`
-- `src/pages/foo.md` -> `localhost:3000/foo`
-- `src/pages/foo/bar.js` -> `localhost:3000/foo/bar`
+React is a Javascript library for building user interface. React is one of the most popular ones, with **over 100,000 stars on Github**. Many well-known companies use React like Facebook, Airbnb, and Dropbox.
 
-## Create your first React Page
+## Prerequisites
 
-Create a file at `src/pages/my-react-page.js`:
+There are a few things you should know in advance before you start playing around with React. If you've never used JavaScript or the DOM at all before, for example, I would get more familiar with those before trying to tackle React.
 
-```jsx title="src/pages/my-react-page.js"
-import React from 'react';
-import Layout from '@theme/Layout';
+- Basic familiarity with **HTML & CSS.**
+- Basic knowledge of **Javascript** and Programming.
+- Basic Understanding of **the DOM.**
+- Familiarity with **ES6 syntax and features.**
 
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
-```
+## Setup and Installation
 
-A new page is now available at `http://localhost:3000/my-react-page`.
+The React team primarily recommends these solutions:
 
-## Create your first Markdown Page
-
-Create a file at `src/pages/my-markdown-page.md`:
-
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
-
-This is a Markdown page
-```
-
-A new page is now available at `http://localhost:3000/my-markdown-page`.
+- If you’re **learning React** or **creating a new single-page app**, use `Create React App`.
+- If you’re building a **server-rendered website with Node.js**, try `Next.js`.
+- If you’re building a **static content-oriented website**, try `Gatsby`.

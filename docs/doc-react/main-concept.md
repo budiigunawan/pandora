@@ -191,6 +191,10 @@ function Welcome(props) {
 export default Welcome;
 ```
 
+Result on web browser:
+
+![Props Result](/img/documentation/react/react-props.png)
+
 We can modify the `App` code to make it simpler by using `map method`. This method **creates a new array** populated with the results of calling a provided function on every element in the calling array.
 
 ```jsx title='src/App.js"
@@ -287,7 +291,3 @@ export default test;
 ```jsx
 setState({ id: 2022, name: 'John' });
 ```
-
-## React Component Lifecycle
-
-## React Hooks

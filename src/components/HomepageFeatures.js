@@ -4,13 +4,10 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Easy to Access',
     Svg: require('../../static/img/undraw_programmer_re_owql.svg').default,
     description: (
-      <>
-        Pandora was designed from the ground up to be easily learned and used in
-        your project
-      </>
+      <>All develompment documentations are centralized in one place</>
     ),
   },
   {
@@ -18,9 +15,8 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_maker_launch_crhe.svg').default,
     description: (
       <>
-        Pandora use Qore to accelerate the development process especially on the
-        backend, so you can focus on implementing UI/UX design into your
-        project.
+        Accelerate learning process is equal to accelerating the development
+        process
       </>
     ),
   },

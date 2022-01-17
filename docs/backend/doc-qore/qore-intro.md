@@ -19,3 +19,17 @@ Qore is Backend as a service (BaaS) platform that can **leverage backend service
 ✨ Use authentication that can secure our application
 
 ✨ Use Cloud storage without configuring it
+
+### Accelerate Development Process
+
+**Development Process Current State:**
+
+![Development Process Current State](/img/documentation/background/before1.png)
+
+As shown in the picture above, development need a lot of time. This happen because we made it from scratch.
+
+**Development Process Desired State:**
+
+![Development Process Desired State](/img/documentation/background/after1.png)
+
+As show in the development process desired state, Qore can accelerate backend development.

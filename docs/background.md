@@ -18,5 +18,11 @@ Developers also will learn how to apply best practices on their project by learn
 
 ## Why Pandora is created?
 
-- Paragon didn't have centralized platform to store all development documentations
-- Paragon didn't have software development standards
+1. Paragon didn't have centralized platform to store all development documentations
+2. Paragon didn't have software development standards
+
+## How to Contribute to Pandora?
+
+### Edit Existing Documentation
+
+### Create New Documentation

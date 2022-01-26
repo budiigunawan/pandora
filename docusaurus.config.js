@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Pandora',
-  tagline: `ALL DEV DOCS, in ON PLACE`,
+  tagline: `ALL DEV DOCS, in ONE PLACE`,
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',

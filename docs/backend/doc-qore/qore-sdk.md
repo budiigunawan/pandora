@@ -51,7 +51,7 @@ npx @feedloop/qore-cli login
 
 ### Set up Your React Project
 
-1. **[Setup React JS Project](/docs/doc-react/react-intro)**
+1. **[Setup React JS Project](/docs/frontend/doc-react/react-intro)**
 2. Initialize `package.json` file on your root project directory by triggering `npm init -y`, followed by installing required dependencies.
 
 ```shell title='Qore Client'

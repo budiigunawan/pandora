@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Pandora',
-  tagline: `Paragonian's documentation for react application`,
+  tagline: `ALL DEV DOCS, in ONE PLACE`,
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -24,12 +24,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/buigun/pandora/edit/main/website/',
+          editUrl: 'https://github.com/buigun/pandora/edit/dev/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: 'https://github.com/buigun/pandora/edit/main/website/blog/',
+          editUrl: 'https://github.com/buigun/pandora/edit/dev/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

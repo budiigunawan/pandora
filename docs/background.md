@@ -10,44 +10,43 @@ Let's discover **the background of Pandora**.
 
 ![Pandora logo](/img/logo2.png)
 
-Pandora is an abbreviation for **Paragonian's Documentation for React Application**.
+Pandora (**Paragonian's Documentation for Application Development**) is a platform for all development documentations that used by Paragonian.
 
-This Documentation will show you how to develop a web application step by step using **Qore for the backend and React JS for the frontend**. These tools will help us to speed up the development process.
+Pandora will stores `frontend documentations` and `backend documentations`. These documentations will help developers(_especially newcomers_) to speed up the development learning process.
 
-We also will learn how to apply best practices on **preview code using ESLint, code review by peer in github/gitlab, and page preview before merging to development branch**. These steps will help us to prevent bugs/errors that will appear in the future.
+Developers also will learn how to apply best practices on their project by learning `ways of working documentations`. These documentations will help developers to deliver good quality application.
 
 ## Why Pandora is created?
 
-### Development Process
+1. Paragon didn't have centralized platform to store all development documentations
+2. Paragon didn't have documented software development standards
 
-**Development Process Current State:**
+## How to Contribute to Pandora?
 
-![Development Process Current State](/img/documentation/background/before1.png)
+![Fork Repository](/img/documentation/background/fork.png)
 
-As shown in the picture above, development need a lot of time. This happen because we made it from scratch.
+You have to fork this project to your repository.
 
-**Development Process Desired State:**
+### Create New Documentation
 
-![Development Process Desired State](/img/documentation/background/after1.png)
+![Clone Repository](/img/documentation/background/clone.png)
 
-As show in the development process desired state, we can reduce 7 steps so we can accelerate the development process.
+Clone your forked repository to your computer
 
-### Writing Code
+![Create New Doc](/img/documentation/background/new-docs.png)
 
-**Writing Code Current State:**
+Create your new folder and markdown file inside docs folder. After finish writing, push to your forked repository and create pull request to Pandora Repository.
 
-![Writing Code Current State](/img/documentation/background/before2.png)
+### Edit Existing Documentation
 
-As shown in the picture above, There is no code review. It will definitely cause troubles in the future because the code is not clean.
+![Create New Doc](/img/documentation/background/edit-btn.png)
 
-**Writing Code Desired State:**
+Click Edit Button. You can find this button on footer of each documentation.
 
-![Writing Code Desired State](/img/documentation/background/after2.png)
+![Create New Doc](/img/documentation/background/edit.png)
 
-The desired state shows that we can add some steps to review the code, so errors will reduce in the future.
+Edit documentation via Markdown Editor.
 
-## When to use Pandora?
+![Create New Doc](/img/documentation/background/edit2.png)
 
-![When use Pandora](/img/documentation/background/when_use_pandora.png)
-
-As shown in the picture above, This documentation can be used for projects that have lower-higher management complexity with lower technical complexity, such as landing page, corporate website, CMS, and simple information system.
+Write a description about change that you've been made, click Propose Change. Wait until maintainer accept your changes.
